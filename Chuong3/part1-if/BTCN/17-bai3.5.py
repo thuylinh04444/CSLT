@@ -1,6 +1,6 @@
 a=int(input())
 if a==0:
-    print('Xep loa A')
+    print('Xep loai A')
 elif a<2:
     print('Xep loai B')
 elif a<4:
