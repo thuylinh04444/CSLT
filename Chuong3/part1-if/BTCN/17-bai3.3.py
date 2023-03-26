@@ -4,11 +4,11 @@ ch=str(input('Phep toan:'))
 if ch== "+":
      print(x,ch,y,"=",round((x+y),1),sep='')
 elif ch=="-":
-      print(x,ch,y,",",round((x-y),1),sep='')
+      print(x,ch,y,"=",round((x-y),1),sep='')
 elif ch=="*":
-        print(x,ch,y,",",round((x*y),1),sep='')
+        print(x,ch,y,"=",round((x*y),1),sep='')
 elif ch== "/" and y!=0: 
-     print(x,ch,y,',',round((x/y),1),sep='')
+     print(x,ch,y,'=',round((x/y),1),sep='')
 else:
     print('Khong hop le')
           
